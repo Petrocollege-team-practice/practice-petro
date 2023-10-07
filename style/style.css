@@ -133,7 +133,8 @@ button:hover {
 }
 
 button:hover {
-    filter: saturate(1.2)
+    transition: .5s;
+    filter: saturate(1.4)
 }
 
 .btn-other-place {
