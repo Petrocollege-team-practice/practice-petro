@@ -9,6 +9,7 @@
     --standart-txt-color: #FFF;
     --border-nav: #E1016E;
     --gradient-btn: linear-gradient(78deg, #E5006D 6.38%, #C90171 21.48%, #961975 48.48%, #6F1F78 70.91%, #56207A 87.63%, #4C217A 96.76%);
+    --violet: #961975;
 }
 
 #header {
@@ -50,6 +51,7 @@ p {
 
 .hdr-nav {
     width: 735px;
+    margin-right: 125px;
 }
 
 .hdr-ul {
@@ -79,9 +81,14 @@ li {
     border-bottom: 1px var(--border-nav) solid;
 }
 
+.prv-div {
+    margin-top: 150px;
+    display: flex;
+}
+
 .prv-description-h {
     width: 762px;
-    margin-top: 150px;
+
 }
 
 h1 {
@@ -101,15 +108,68 @@ button {
     width: 250px;
     align-items: center;
     height: 60px;
-    font-family: 'Raleway-medium';
+    font-family: 'Raleway-regular';
     color: var(--standart-txt-color);
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 .prv-description-btns {
+    width: 520px;
     margin-top: 60px;
     display: flex;
+    justify-content: space-between;
+}
+
+.btn-from-college {
+    background: var(--gradient-btn);
+}
+
+button:hover {
+    filter: saturate(1.2)
+}
+
+.btn-other-place {
+    background: none;
+    border: 1px solid var(--violet);
+}
+
+.prv-info {
+    position: absolute;
+    top: 0px;
+    right:355px;
+    background: url(../img/man.png) no-repeat center center;
+    height: 850px;
+    width: 450px;
+}
+
+.btn-for-vk {
+    margin-top: 615px;
+    margin-left: 135px;
+    padding-top: 16px;
+    width: 284px;
+    height: 80px;
+    background: var(--violet);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 4px 4px 0px 0.90051px #5F0B57;
+}
+
+.btn-for-vk-span {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 7px;
 }
 
