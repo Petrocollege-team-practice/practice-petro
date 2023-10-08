@@ -134,7 +134,7 @@ button:hover {
 
 button:hover {
     transition: .5s;
-    filter: saturate(1.4)
+    filter: saturate(0.8);
 }
 
 .btn-other-place {
@@ -145,7 +145,7 @@ button:hover {
 .prv-info {
     position: absolute;
     top: 0px;
-    right:355px;
+    right: 325px;
     background: url(../img/man.png) no-repeat center center;
     height: 850px;
     width: 450px;
