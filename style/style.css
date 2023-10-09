@@ -13,6 +13,7 @@
     --dark-purple: #4B1962;
     --light-purple: #F4F2FD;
     --dark: #21093A;
+    --pink: #E1016E;
 }
 
 #header {
@@ -23,8 +24,8 @@
 }
 
 section {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 a {
@@ -47,6 +48,8 @@ p {
 }
 
 .container-background {
+    padding-top: 50px;
+    padding-bottom: 65px;
     width: 1380px;
     border-radius: 20px;
     background: var(--dark);
@@ -293,8 +296,135 @@ button:hover {
     max-width: 100%;
 }
 
-.how-going-pratice h2 {
-    padding-top: 50px;
-    padding-bottom: 40px;
+.how-going-practice h2 {
     color: var(--standart-txt-color);
+}
+
+.instruction-practice-row:nth-child(1) {
+    margin-bottom: 20px;
+}
+
+.instruction-practice-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.instruction-block {
+    display: flex;
+    width: 570px;
+    height: 220px;
+    padding: 20px;
+    flex-direction: column; 
+    border-radius: 16px;
+    border: 1px solid var(--pink);
+}
+
+.instruction-practice-row:nth-child(2) .instruction-block {
+    height: 170px;
+}
+
+.instruction-block h3 {
+    color: var(--light-purple);
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.dscrpt-instruction {
+    color: var(--standart-txt-color);
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.3px;
+}
+
+.block-questions {
+    width: 800px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.row-question {
+    width: 800px;
+    display: flex;
+    padding: 30px 20px;
+    border-top: 1px solid var(--pink);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon-plus {
+    width: 32px;
+    height: 32px;
+    background: url(../img/plus.svg) no-repeat center center;
+}
+
+.questions h2 {
+    margin-bottom: 30px;
+}
+
+.block-questions {
+    margin-bottom: 50px;
+}
+
+.ask-question {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.ask-question-btn {
+    margin: 0 auto;
+    padding: 20px 30px;
+    background: var(--gradient-btn);
+    box-shadow: 3px 2px 6px 0px rgba(0, 0, 0, 0.50);
+    letter-spacing: 0.3px;
+}
+
+.footer-bckgrnd {
+    background: var(--dark);
+}
+
+.footer-elements {
+    width: 1570px;
+    height: 86px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-element {
+    display: flex;
+    align-items: center;
+}
+
+.footer-txt {
+    color: var(--standart-txt-color);
+    font-family: 'Raleway-medium';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.icon-geo {
+    width: 16px;
+    height: 20px;
+    background: url(../img/footer-icons/geo-vector.svg) no-repeat center center;
+}
+
+.icon-phone {
+    width: 29px;
+    height: 29px;
+    background: url(../img/footer-icons/phone-icon.svg) no-repeat center center;
+}
+
+.icon-union {
+    width: 29px;
+    height: 29px;
+    background: url(../img/footer-icons/college-icon.svg) no-repeat center center;
+}
+
+.footer-element .icon-geo, .icon-phone, .icon-union {
+    margin-right: 15px;
+}
+
+.link-to-main-site:hover {
+    text-decoration: underline;
 }
