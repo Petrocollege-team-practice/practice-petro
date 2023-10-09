@@ -46,7 +46,19 @@ p {
     font-weight: 400;
 }
 
+.container-background {
+    width: 1380px;
+    border-radius: 20px;
+    background: var(--dark);
+    margin: 0 auto;
+}
+
 .container {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.container-header {
     width: 1180px;
     margin: 0 auto;
     max-width: 80%;
@@ -204,8 +216,8 @@ button:hover {
     margin-top: 7px;
 }
 
-.choose-place-for-practice .container {
-    width: 1250px;
+.choose-place-for-practice {
+    padding-bottom: 50px;
 }
 
 .skills .row-skills:nth-child(1) {
@@ -279,4 +291,10 @@ button:hover {
 .txt-friends {
     width: 640px;
     max-width: 100%;
+}
+
+.how-going-pratice h2 {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    color: var(--standart-txt-color);
 }
