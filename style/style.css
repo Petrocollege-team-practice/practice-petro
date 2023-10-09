@@ -10,6 +10,9 @@
     --border-nav: #E1016E;
     --gradient-btn: linear-gradient(78deg, #E5006D 6.38%, #C90171 21.48%, #961975 48.48%, #6F1F78 70.91%, #56207A 87.63%, #4C217A 96.76%);
     --violet: #961975;
+    --dark-purple: #4B1962;
+    --light-purple: #F4F2FD;
+    --dark: #21093A;
 }
 
 #header {
@@ -17,6 +20,11 @@
     justify-content: space-between;
     height: 54px;
     padding-top: 25px;
+}
+
+section {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 a {
@@ -47,11 +55,14 @@ p {
 .prv-block {
     background-color: var(--main-bg-color);
     height: 850px;
+    margin-top: 0;
+    padding: 0;
 }
 
 .hdr-nav {
     width: 735px;
     margin-right: 125px;
+    z-index: 5;
 }
 
 .hdr-ul {
@@ -100,6 +111,24 @@ h1 {
     text-transform: uppercase;
 }
 
+h2 {
+    font-family: 'Dela';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--dark-purple);
+    margin-bottom: 40px;
+}
+
+h3 {
+    color: var(--dark-purple);
+    font-family: 'Dela';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+
 .prv-description-txt {
     margin-top: 30px;
 }
@@ -134,7 +163,7 @@ button:hover {
 
 button:hover {
     transition: .5s;
-    filter: saturate(1.4)
+    filter: saturate(0.8);
 }
 
 .btn-other-place {
@@ -145,10 +174,11 @@ button:hover {
 .prv-info {
     position: absolute;
     top: 0px;
-    right:355px;
+    right: 325px;
     background: url(../img/man.png) no-repeat center center;
     height: 850px;
     width: 450px;
+    z-index: 1;
 }
 
 .btn-for-vk {
@@ -174,3 +204,79 @@ button:hover {
     margin-top: 7px;
 }
 
+.choose-place-for-practice .container {
+    width: 1250px;
+}
+
+.skills .row-skills:nth-child(1) {
+    margin-bottom: 20px;
+}
+
+.row-skills {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-skill {
+    width: 660px;
+    padding: 20px;
+    border-radius: 16px;
+    border: 3px solid var(--light-purple);
+    background: var(--standart-txt-color);
+    box-shadow: 5px 10px 20px 0px rgba(48, 3, 53, 0.10);
+}
+
+.row-for-icon {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon-skill {
+    width: 80px;
+    height: 80px;
+}
+
+.icon-perspectives {
+    padding: 4.666px 4.665px 4.667px 4.668px;
+    background: url(../img/icons/icon-perspectives.svg) no-repeat center center;
+    margin-bottom: 30px;
+}
+
+.icon-knowledge {
+    background: url(../img/icons/icon-union.svg) no-repeat center center;
+    margin-bottom: 38px;
+}
+
+.icon-reputation {
+    background: url(../img/icons/icon-reputation.svg) no-repeat center center;
+    margin-bottom: 34px;
+}
+
+.icon-friends {
+    background: url(../img/icons/icon-friends.svg) no-repeat center center;
+    margin-bottom: 34px;
+}
+
+.dscrptn-skills {
+    margin-top: 20px;
+    color: var(--dark);
+    font-family: 'Raleway-medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.new_knowledge, .reputation {
+    width: 480px;
+}
+
+.txt-reputation {
+    width: 440px;
+    max-width: 100%;
+}
+
+.txt-friends {
+    width: 640px;
+    max-width: 100%;
+}
