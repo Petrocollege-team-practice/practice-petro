@@ -343,10 +343,12 @@ button:hover {
 }
 
 .row-question {
-    width: 800px;
-    display: flex;
-    padding: 30px 20px;
     border-top: 1px solid var(--pink);
+    padding: 30px 20px;
+}
+
+.up-row-question {
+    display: flex;
     align-items: center;
     justify-content: space-between;
 }
@@ -367,7 +369,7 @@ button:hover {
 
 .ask-question {
     display: flex;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
 }
 
 .ask-question-btn {
@@ -427,4 +429,29 @@ button:hover {
 
 .link-to-main-site:hover {
     text-decoration: underline;
+}
+
+.elements-foot-1 {
+    display: flex;
+    justify-content: space-between;
+    width: 705px;
+}
+
+.elements-foot-2 {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+
+.answer {
+    margin-top: 30px;
+}
+
+.answer-txt {
+    color: var(--dark);
+    font-family: 'Raleway-regular';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
 }

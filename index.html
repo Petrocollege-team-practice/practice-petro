@@ -1,162 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/style.css">
-    <link rel="stylesheet" href="./style/fonts.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/fonts.css" />
+    <link rel="stylesheet" href="./style/additionStyle.css">
     <title>Петровский колледж</title>
-</head>
-<body>
+  </head>
+  <body>
     <section class="prv-block">
-        <div class="container-header">
-            <header id="header">
-                <div class="logo-petrocollege">
-                    <a href="index.html"><img src="./img/PetroLogo.svg" alt="PetroLogo" class="petro-logo"></a>
-                </div>
-                <nav class="hdr-nav">
-                    <ul class="hdr-ul">
-                        <li><a href="index.html" class="main-page">Главная</a></li>
-                        <li><a href="#" class="list-page">Список документов</a></li>
-                        <li><a href="#" class="qstn-page">Вопрос | Ответ</a></li>
-                        <li><a href="#" class="geo-page">Местоположение</a></li>
-                    </ul>
-                </nav>
-            </header>
-            <div class="prv-div">
-                <div class="prv-description">
-                    <div class="prv-description-h">
-                        <h1>Производственная<br>
-                            Практика<br>
-                            В Петровском</h1>
-                    </div>
-                    <p class="prv-description-txt">Подать заявление на производственную практику</p>
-                    <div class="prv-description-btns">
-                        <button class="btn-from-college">От колледжа</button>
-                        <button class="btn-other-place">Другое место</button>
-                    </div>
-                </div>
-                <div class="prv-info">
-                        <button class="btn-for-vk">Больше информации о практике<br><span class="btn-for-vk-span">Группа ВК</span></button>
-                </div>
+      <div class="container-header">
+        <header id="header">
+          <div class="logo-petrocollege">
+            <a href="index.html"
+              ><img
+                src="./img/PetroLogo.svg"
+                alt="PetroLogo"
+                class="petro-logo"
+            /></a>
+          </div>
+          <nav class="hdr-nav">
+            <ul class="hdr-ul">
+              <li><a href="index.html" class="main-page">Главная</a></li>
+              <li><a href="#" class="list-page">Список документов</a></li>
+              <li><a href="#" class="qstn-page">Вопрос | Ответ</a></li>
+              <li><a href="./местоположение/locate.html" class="geo-page">Местоположение</a></li>
+            </ul>
+          </nav>
+        </header>
+        <div class="prv-div">
+          <div class="prv-description">
+            <div class="prv-description-h">
+              <h1>
+                Производственная<br />
+                Практика<br />
+                В Петровском
+              </h1>
             </div>
+            <p class="prv-description-txt">
+              Подать заявление на производственную практику
+            </p>
+            <div class="prv-description-btns">
+              <button class="btn-from-college"  id="from-college">От колледжа</button>
+              <button class="btn-other-place" id = "other-place">Другое место</button>
+            </div>
+          </div>
+          <div class="prv-info">
+            <button class="btn-for-vk"  id="vkButton">
+              Больше информации о практике <br/>
+              <span class="btn-for-vk-span"> Группа ВК</span>
+            </button>
+          </div>
         </div>
+      </div>
     </section>
     <section class="choose-place-for-practice">
-        <div class="container">
-            <h2>КАК ВЫБРАТЬ МЕСТО ПРАКТИКИ</h2>
-            <div class="skills">
-                <div class="row-skills">
-                    <div class="block-skill perspectives">
-                        <div class="row-for-icon">
-                            <div class="icon-skill icon-perspectives"></div>
-                        </div>
-                        <h3>Перспективы</h3>
-                        <p class="dscrptn-skills txt-perspectives">Выбирайте места практик с перспективой на то, где бы хотели работать в будущем.
-                            Возможно после успешной практики вас возьмут на работу</p>
-                    </div>
-                    <div class="block-skill new_knowledge">
-                        <div class="row-for-icon">
-                            <div class="icon-skill icon-knowledge"></div>
-                        </div>
-                        <h3>Новые знания</h3>
-                        <p class="dscrptn-skills txt-knowledge">Отправляйтесь туда, где вы сможете узнать новое и учиться у профессионалов своего дела</p>
-                    </div>
-                </div>
-                <div class="row-skills">
-                    <div class="block-skill reputation">
-                        <div class="row-for-icon">
-                            <div class="icon-skill icon-reputation"></div>
-                        </div>
-                        <h3>Репутация организации</h3>
-                        <p class="dscrptn-skills txt-reputation">Проанализируйте репутацию компании, а также опыт других стажеров</p>
-                    </div>
-                    <div class="block-skill friends">
-                        <div class="row-for-icon">
-                            <div class="icon-skill icon-friends"></div>
-                        </div>
-                        <h3>Товарищи</h3>
-                        <p class="dscrptn-skills txt-friends">Практикуйтесь там, где вы сможете обрести новых друзей и товарищей из сферы где вы работаете</p>
-                    </div>
-                </div>
+      <div class="container">
+        <h2>КАК ВЫБРАТЬ МЕСТО ПРАКТИКИ</h2>
+        <div class="skills">
+          <div class="row-skills">
+            <div class="block-skill perspectives">
+              <div class="row-for-icon">
+                <div class="icon-skill icon-perspectives"></div>
+              </div>
+              <h3>Перспективы</h3>
+              <p class="dscrptn-skills txt-perspectives">
+                Выбирайте места практик с перспективой на то, где бы хотели
+                работать в будущем. Возможно после успешной практики вас возьмут
+                на работу
+              </p>
             </div>
+            <div class="block-skill new_knowledge">
+              <div class="row-for-icon">
+                <div class="icon-skill icon-knowledge"></div>
+              </div>
+              <h3>Новые знания</h3>
+              <p class="dscrptn-skills txt-knowledge">
+                Отправляйтесь туда, где вы сможете узнать новое и учиться у
+                профессионалов своего дела
+              </p>
+            </div>
+          </div>
+          <div class="row-skills">
+            <div class="block-skill reputation">
+              <div class="row-for-icon">
+                <div class="icon-skill icon-reputation"></div>
+              </div>
+              <h3>Репутация организации</h3>
+              <p class="dscrptn-skills txt-reputation">
+                Проанализируйте репутацию компании, а также опыт других стажеров
+              </p>
+            </div>
+            <div class="block-skill friends">
+              <div class="row-for-icon">
+                <div class="icon-skill icon-friends"></div>
+              </div>
+              <h3>Товарищи</h3>
+              <p class="dscrptn-skills txt-friends">
+                Практикуйтесь там, где вы сможете обрести новых друзей и
+                товарищей из сферы где вы работаете
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <section class="how-going-practice">
-        <div class="container-background">
-            <div class="container">
-                <h2>Как проходит практика</h2>
-                <div class="instruction-practice">
-                    <div class="instruction-practice-row">
-                        <div class="instruction-block chs-place">
-                            <h3>Выбор места практики</h3>
-                            <p class="dscrpt-instruction chs-place-txt">Первый этап - выбор места практики, где вы будете стажироваться. 
-                                Это может быть как ваше место, которое вы нашли самостоятельно, так и предлагаемое от колледжа</p>
-                        </div>
-                        <div class="instruction-block take-task">
-                            <h3>Получение задачи</h3>
-                            <p class="dscrpt-instruction take-task-txt">Второй этап - зачисление на предприятие и назначение руководителя производственной практики. 
-                                Руководитель отвечает за вас, ставит задачи и контролирует их выполнение</p>
-                        </div>
-                    </div>
-                    <div class="instruction-practice-row">
-                        <div class="instruction-block do-ex">
-                            <h3>Выполнение задания</h3>
-                            <p class="dscrpt-instruction do-ex-txt">Третий этап - выполнение вашего задания, 
-                                а так же параллельное заполнение дневника производственной практики</p>
-                        </div>
-                        <div class="instruction-block end-practice">
-                            <h3>Защита практики</h3>
-                            <p class="dscrpt-instruction end-practice-txt">Четвертый этап - окончание практики. 
-                                Вы возвращаетесь в колледж для защиты результатов своей трудовой деятельности перед комиссией</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="questions">
+      <div class="container-background">
         <div class="container">
-            <h2>Ответы на вопросы</h2>
-            <div class="block-questions">
-                <div class="row-question">
-                    <h3 class="question-txt">Что такое п/п?</h3>
-                    <div class="icon-plus"></div>
-                </div>
-                <div class="row-question">
-                    <h3 class="question-txt">Как долго длится п/п?</h3>
-                    <div class="icon-plus"></div>
-                </div>
-                <div class="row-question">
-                    <h3 class="question-txt">Что происходит на п/п?</h3>
-                    <div class="icon-plus"></div>
-                </div>
+          <h2>Как проходит практика</h2>
+          <div class="instruction-practice">
+            <div class="instruction-practice-row">
+              <div class="instruction-block chs-place">
+                <h3>Выбор места практики</h3>
+                <p class="dscrpt-instruction chs-place-txt">
+                  Первый этап - выбор места практики, где вы будете
+                  стажироваться. Это может быть как ваше место, которое вы нашли
+                  самостоятельно, так и предлагаемое от колледжа
+                </p>
+              </div>
+              <div class="instruction-block take-task">
+                <h3>Получение задачи</h3>
+                <p class="dscrpt-instruction take-task-txt">
+                  Второй этап - зачисление на предприятие и назначение
+                  руководителя производственной практики. Руководитель отвечает
+                  за вас, ставит задачи и контролирует их выполнение
+                </p>
+              </div>
             </div>
-            <div class="ask-question">
-                <button class="ask-question-btn">Задать вопрос</button>
+            <div class="instruction-practice-row">
+              <div class="instruction-block do-ex">
+                <h3>Выполнение задания</h3>
+                <p class="dscrpt-instruction do-ex-txt">
+                  Третий этап - выполнение вашего задания, а так же параллельное
+                  заполнение дневника производственной практики
+                </p>
+              </div>
+              <div class="instruction-block end-practice">
+                <h3>Защита практики</h3>
+                <p class="dscrpt-instruction end-practice-txt">
+                  Четвертый этап - окончание практики. Вы возвращаетесь в
+                  колледж для защиты результатов своей трудовой деятельности
+                  перед комиссией
+                </p>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </section>
-<footer>
-    <div class="footer-bckgrnd">
+    <section class="questions" id="questions">
+      <div class="container">
+        <h2>Ответы на вопросы</h2>
+        <div class="block-questions">
+          <div class="row-question">
+            <div class="up-row-question">
+            <h3 class="question-txt">Что такое п/п?</h3>
+            <div class="icon-plus"></div>
+            </div>
+            <div class="answer">
+              <p class="answer-txt">Я проведу с вами личную диагностику, где оценю ваши текущие результаты. Мы разработаем индивидуальную стратегию. У кого-то из вас могут быть уже налажены поставки товаров на все склады и вам нужно, например, продвижение товаров и проработка карточек. Кому-то, например, нужен будет поиск товаров и аналитика и только потом этап закупки товаров и поставка. Бюджет у каждого индивидуален — обязательного минимального критерия нет. Но если вы хотите сильно, в разы, вырасти, то вам нужно будет вкладываться в товары и продвижение.</p>
+            </div>
+          </div>
+          <div class="row-question">
+            <div class="up-row-question">
+            <h3 class="question-txt">Как долго длится п/п?</h3>
+            <div class="icon-plus"></div>
+            </div>
+            <div class="answer">
+              <p class="answer-txt">Я проведу с вами личную диагностику, где оценю ваши текущие результаты. Мы разработаем индивидуальную стратегию. У кого-то из вас могут быть уже налажены поставки товаров на все склады и вам нужно, например, продвижение товаров и проработка карточек. Кому-то, например, нужен будет поиск товаров и аналитика и только потом этап закупки товаров и поставка. Бюджет у каждого индивидуален — обязательного минимального критерия нет. Но если вы хотите сильно, в разы, вырасти, то вам нужно будет вкладываться в товары и продвижение.</p>
+            </div>
+          </div>
+          <div class="row-question">
+            <div class="up-row-question">
+            <h3 class="question-txt">Что происходит на п/п?</h3>
+            <div class="icon-plus"></div>
+          </div>
+          <div class="answer">
+            <p class="answer-txt">Я проведу с вами личную диагностику, где оценю ваши текущие результаты. Мы разработаем индивидуальную стратегию. У кого-то из вас могут быть уже налажены поставки товаров на все склады и вам нужно, например, продвижение товаров и проработка карточек. Кому-то, например, нужен будет поиск товаров и аналитика и только потом этап закупки товаров и поставка. Бюджет у каждого индивидуален — обязательного минимального критерия нет. Но если вы хотите сильно, в разы, вырасти, то вам нужно будет вкладываться в товары и продвижение.</p>
+          </div>
+          </div>
+        </div>
+        <div class="ask-question">
+          <button class="ask-question-btn">Задать вопрос</button>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-bckgrnd">
         <div class="footer-elements">
+          <div class="elements-foot-1">
             <div class="footer-element geo">
-                <div class="icon-geo"></div>
-                <p class="footer-txt">ул. Курляндская, д. 39, кабинет 125 (точка кипения)</p>
+              <div class="icon-geo"></div>
+              <p class="footer-txt">
+                ул. Курляндская, д. 39, кабинет 125 (точка кипения)
+              </p>
             </div>
             <div class="footer-element phone">
-                <div class="icon-phone"></div>
-                <p class="footer-txt">+7-(951)-677-74-30</p>
+              <div class="icon-phone"></div>
+              <p class="footer-txt">+7-(951)-677-74-30</p>
             </div>
+          </div>
+          <div class="elements-foot-2">
             <div class="footer-element website-petro">
-                <div class="icon-union"></div>
-                <a class="footer-txt link-to-main-site" href="http://www.petrocollege.ru">Официальный сайт</a>
+              <div class="icon-union"></div>
+              <a class="footer-txt link-to-main-site"
+                href="http://www.petrocollege.ru"
+                >Официальный сайт</a
+              >
             </div>
             <div class="footer-element copyright">
-                <p class="footer-txt">© 2023 СПб ГБПОУ «Петровский колледж»</p>
+              <p class="footer-txt">© 2023 СПб ГБПОУ «Петровский колледж»</p>
             </div>
-        </div>
-    </div>
-</footer>
-</body>
+          </div>
+          </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+   
+  </body>
 </html>
