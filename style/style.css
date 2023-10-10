@@ -102,10 +102,61 @@ li {
     margin-top: 5px;
 }
 
-.main-page {
+.main-page, .list-page, .qstn-page, .geo-page {
     padding-bottom: 10px;
-    border-bottom: 1px var(--border-nav) solid;
 }
+/* 
+.main-page {
+    border-bottom: 1px var(--border-nav) solid;
+} */
+
+/* Сначала скроем подчеркивание и установим начальные значения анимации */
+/* Начальные стили для ссылок */
+/* Начальные стили для ссылок */
+.hdr-ul li a {
+    position: relative;
+    text-decoration: none;
+    color: var(--standart-txt-color); /* Начальный цвет текста */
+    transition: color 0.3s ease-in-out;
+}
+
+/* Подчеркивание */
+/* Начальные стили для ссылок */
+/* Начальные стили для ссылок */
+.hdr-ul li a {
+    position: relative;
+    text-decoration: none;
+    color: var(--standart-txt-color); /* Начальный цвет текста */
+    transition: color 0.3s ease-in-out;
+}
+
+/* Подчеркивание */
+.hdr-ul li a::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #E1016E; /* Цвет подчеркивания */
+    transform: translateX(-50%);
+    transition: width 0.3s ease-in-out;
+}
+
+/* Анимация подчеркивания при наведении */
+.hdr-ul li:hover a::before {
+    width: 100%;
+}
+
+/* Подсветка текста при наведении */
+.hdr-ul li:hover a {
+    text-shadow: 0px 0px 10px #E5006D; /* Подсветка текста при наведении */
+}
+
+.icon-plus img{
+     cursor: pointer;
+}
+
 
 .prv-div {
     margin-top: 150px;
@@ -190,7 +241,7 @@ button:hover {
     position: absolute;
     top: 0px;
     right: 325px;
-    background: url(../img/man.png) no-repeat center center;
+    background: url(../img/Photo-for-site.png) no-repeat center center;
     height: 850px;
     width: 450px;
     z-index: 1;
@@ -356,7 +407,11 @@ button:hover {
 .icon-plus {
     width: 32px;
     height: 32px;
-    background: url(../img/plus.svg) no-repeat center center;
+}
+
+.icon-plus img {
+    width: 80%;
+    height: auto;
 }
 
 .questions h2 {
@@ -455,3 +510,129 @@ button:hover {
     font-weight: 400;
     line-height: 150%;
 }
+
+
+/* МЕСТОПОЛОЖЕНИЕ */
+
+
+.containerAll {
+    margin: auto;
+    max-width: 100%;
+    width: 1000px;
+
+}
+
+.blck-geo {
+    margin-top: 25px;
+    border-radius: 16px;
+    border: 1px solid var(--pink, #E1016E);
+    padding: 20px;
+}
+
+.blck-geo h3 {
+    color: var(--light-purple);
+    margin-bottom: 30px;
+}
+
+.txt-geo {
+    color: var(--standart-txt-color);
+    font-family: 'Raleway-regular';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    letter-spacing: 0.3px;
+}
+
+
+iframe {
+    margin: 0 auto;
+
+}
+
+.map {
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.gal {
+    color: var(--white, #FFF);
+    font-family: 'Raleway-Regular';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.lik {
+    color: var(--white, #FFF);
+    font-family: 'Raleway-Regular';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.containerAll2 {
+    width: 1300px;
+    margin: auto;
+    max-width: 100%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+
+}
+
+.mesto {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.telefon {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.college {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+.footertext {
+    color: #FFF;
+    font-family: 'Raleway-Medium';
+    font-size: 13px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.chasto {
+    color: white;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-family: 'Dela';
+    margin: 0;
+}
+
+.voprosi {
+    color: white;
+    font-family: 'Raleway-Regular';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+

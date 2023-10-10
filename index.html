@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style/style.css" />
     <link rel="stylesheet" href="./style/fonts.css" />
-    <link rel="stylesheet" href="./style/additionStyle.css">
+    <link rel="stylesheet" href="./style/additionStyle.css" />
     <title>Петровский колледж</title>
   </head>
   <body>
@@ -22,10 +22,12 @@
           </div>
           <nav class="hdr-nav">
             <ul class="hdr-ul">
-              <li><a href="index.html" class="main-page">Главная</a></li>
-              <li><a href="#" class="list-page">Список документов</a></li>
+              <li><a href="index.html" class="main-page" >Главная</a></li>
+              <li><a href="#" class="list-page ">Список документов</a></li>
               <li><a href="#" class="qstn-page">Вопрос | Ответ</a></li>
-              <li><a href="./местоположение/locate.html" class="geo-page">Местоположение</a></li>
+              <li>
+                <a href="geo.html" class="geo-page">Местоположение</a>
+              </li>
             </ul>
           </nav>
         </header>
@@ -42,13 +44,17 @@
               Подать заявление на производственную практику
             </p>
             <div class="prv-description-btns">
-              <button class="btn-from-college"  id="from-college">От колледжа</button>
-              <button class="btn-other-place" id = "other-place">Другое место</button>
+              <button class="btn-from-college" id="from-college">
+                От колледжа
+              </button>
+              <button class="btn-other-place" id="other-place">
+                Другое место
+              </button>
             </div>
           </div>
           <div class="prv-info">
-            <button class="btn-for-vk"  id="vkButton">
-              Больше информации о практике <br/>
+            <button class="btn-for-vk" id="vkButton">
+              Больше информации о практике <br />
               <span class="btn-for-vk-span"> Группа ВК</span>
             </button>
           </div>
@@ -156,34 +162,82 @@
         <div class="block-questions">
           <div class="row-question">
             <div class="up-row-question">
-            <h3 class="question-txt">Что такое п/п?</h3>
-            <div class="icon-plus"></div>
+              <h3 class="question-txt">Что такое п/п?</h3>
+              <div class="icon-plus" onclick="toggleAnswer(this)">
+                <img
+                  src="../img/plus.svg"
+                  alt="Показать/скрыть ответ"
+                  class="plus-minus"
+                />
+              </div>
             </div>
             <div class="answer">
-              <p class="answer-txt">Я проведу с вами личную диагностику, где оценю ваши текущие результаты. Мы разработаем индивидуальную стратегию. У кого-то из вас могут быть уже налажены поставки товаров на все склады и вам нужно, например, продвижение товаров и проработка карточек. Кому-то, например, нужен будет поиск товаров и аналитика и только потом этап закупки товаров и поставка. Бюджет у каждого индивидуален — обязательного минимального критерия нет. Но если вы хотите сильно, в разы, вырасти, то вам нужно будет вкладываться в товары и продвижение.</p>
+              <p class="answer-txt">
+                Я проведу с вами личную диагностику, где оценю ваши текущие
+                результаты. Мы разработаем индивидуальную стратегию. У кого-то
+                из вас могут быть уже налажены поставки товаров на все склады и
+                вам нужно, например, продвижение товаров и проработка карточек.
+                Кому-то, например, нужен будет поиск товаров и аналитика и
+                только потом этап закупки товаров и поставка. Бюджет у каждого
+                индивидуален — обязательного минимального критерия нет. Но если
+                вы хотите сильно, в разы, вырасти, то вам нужно будет
+                вкладываться в товары и продвижение.
+              </p>
             </div>
           </div>
           <div class="row-question">
             <div class="up-row-question">
-            <h3 class="question-txt">Как долго длится п/п?</h3>
-            <div class="icon-plus"></div>
+              <h3 class="question-txt">Как долго длится п/п?</h3>
+              <div class="icon-plus" onclick="toggleAnswer(this)">
+                <img
+                  src="../img/plus.svg"
+                  alt="Показать/скрыть ответ"
+                  class="plus-minus"
+                />
+              </div>
             </div>
             <div class="answer">
-              <p class="answer-txt">Я проведу с вами личную диагностику, где оценю ваши текущие результаты. Мы разработаем индивидуальную стратегию. У кого-то из вас могут быть уже налажены поставки товаров на все склады и вам нужно, например, продвижение товаров и проработка карточек. Кому-то, например, нужен будет поиск товаров и аналитика и только потом этап закупки товаров и поставка. Бюджет у каждого индивидуален — обязательного минимального критерия нет. Но если вы хотите сильно, в разы, вырасти, то вам нужно будет вкладываться в товары и продвижение.</p>
+              <p class="answer-txt">
+                Я проведу с вами личную диагностику, где оценю ваши текущие
+                результаты. Мы разработаем индивидуальную стратегию. У кого-то
+                из вас могут быть уже налажены поставки товаров на все склады и
+                вам нужно, например, продвижение товаров и проработка карточек.
+                Кому-то, например, нужен будет поиск товаров и аналитика и
+                только потом этап закупки товаров и поставка. Бюджет у каждого
+                индивидуален — обязательного минимального критерия нет. Но если
+                вы хотите сильно, в разы, вырасти, то вам нужно будет
+                вкладываться в товары и продвижение.
+              </p>
             </div>
           </div>
           <div class="row-question">
             <div class="up-row-question">
-            <h3 class="question-txt">Что происходит на п/п?</h3>
-            <div class="icon-plus"></div>
-          </div>
-          <div class="answer">
-            <p class="answer-txt">Я проведу с вами личную диагностику, где оценю ваши текущие результаты. Мы разработаем индивидуальную стратегию. У кого-то из вас могут быть уже налажены поставки товаров на все склады и вам нужно, например, продвижение товаров и проработка карточек. Кому-то, например, нужен будет поиск товаров и аналитика и только потом этап закупки товаров и поставка. Бюджет у каждого индивидуален — обязательного минимального критерия нет. Но если вы хотите сильно, в разы, вырасти, то вам нужно будет вкладываться в товары и продвижение.</p>
-          </div>
+              <h3 class="question-txt">Что происходит на п/п?</h3>
+              <div class="icon-plus" onclick="toggleAnswer(this)">
+                <img
+                  src="../img/plus.svg"
+                  alt="Показать/скрыть ответ"
+                  class="plus-minus"
+                />
+              </div>
+            </div>
+            <div class="answer">
+              <p class="answer-txt">
+                Я проведу с вами личную диагностику, где оценю ваши текущие
+                результаты. Мы разработаем индивидуальную стратегию. У кого-то
+                из вас могут быть уже налажены поставки товаров на все склады и
+                вам нужно, например, продвижение товаров и проработка карточек.
+                Кому-то, например, нужен будет поиск товаров и аналитика и
+                только потом этап закупки товаров и поставка. Бюджет у каждого
+                индивидуален — обязательного минимального критерия нет. Но если
+                вы хотите сильно, в разы, вырасти, то вам нужно будет
+                вкладываться в товары и продвижение.
+              </p>
+            </div>
           </div>
         </div>
         <div class="ask-question">
-          <button class="ask-question-btn">Задать вопрос</button>
+          <button class="ask-question-btn" id="askBtn">Задать вопрос</button>
         </div>
       </div>
     </section>
@@ -205,7 +259,8 @@
           <div class="elements-foot-2">
             <div class="footer-element website-petro">
               <div class="icon-union"></div>
-              <a class="footer-txt link-to-main-site"
+              <a
+                class="footer-txt link-to-main-site"
                 href="http://www.petrocollege.ru"
                 >Официальный сайт</a
               >
@@ -214,10 +269,9 @@
               <p class="footer-txt">© 2023 СПб ГБПОУ «Петровский колледж»</p>
             </div>
           </div>
-          </div>
+        </div>
       </div>
     </footer>
     <script src="script.js"></script>
-   
   </body>
 </html>
