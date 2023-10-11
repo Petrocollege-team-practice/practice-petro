@@ -69,7 +69,7 @@ p {
 
 .prv-block {
     background-color: var(--main-bg-color);
-    height: 850px;
+    height: 800px;
     margin-top: 0;
     padding: 0;
 }
@@ -105,13 +105,8 @@ li {
 .main-page, .list-page, .qstn-page, .geo-page {
     padding-bottom: 10px;
 }
-/* 
-.main-page {
-    border-bottom: 1px var(--border-nav) solid;
-} */
 
 /* Сначала скроем подчеркивание и установим начальные значения анимации */
-/* Начальные стили для ссылок */
 /* Начальные стили для ссылок */
 .hdr-ul li a {
     position: relative;
@@ -122,11 +117,10 @@ li {
 
 /* Подчеркивание */
 /* Начальные стили для ссылок */
-/* Начальные стили для ссылок */
 .hdr-ul li a {
     position: relative;
     text-decoration: none;
-    color: var(--standart-txt-color); /* Начальный цвет текста */
+    color: var(--standart-txt-color);
     transition: color 0.3s ease-in-out;
 }
 
@@ -150,16 +144,15 @@ li {
 
 /* Подсветка текста при наведении */
 .hdr-ul li:hover a {
-    text-shadow: 0px 0px 10px #E5006D; /* Подсветка текста при наведении */
+    text-shadow: 0px 0px 10px #E5006D;
 }
 
 .icon-plus img{
-     cursor: pointer;
+    cursor: pointer;
 }
 
-
 .prv-div {
-    margin-top: 150px;
+    margin-top: 125px;
     display: flex;
 }
 
