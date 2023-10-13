@@ -73,16 +73,47 @@ p {
   margin: 0 auto;
   max-width: 80%;
 }
-.circle {
-  border-radius: 751px;
+.circle1 {
+  left: -480px;
+  top: -370px;
+  position: absolute;
+  border-radius: 651px;
   opacity: 0.5;
   background: var(--pink, #e1016e);
   filter: blur(150px);
-    
   width: 750px;
   height: 751px;
   flex-shrink: 0;
 }
+
+.circle2 {
+  left: 1200px;
+  top: 100px;
+  position: absolute;
+  border-radius: 531px;
+  opacity: 0.5;
+  background: var(--pink, #e1016e);
+  filter: blur(150px);
+  width: 531px;
+  height: 531px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+
+.circle3 {
+  left: 1000px;
+  top: 150px;
+  position: absolute;
+  border-radius: 604px;
+  opacity: 0.5;
+  background: var(--purple, #8900c9);
+  filter: blur(150px);
+  width: 604px;
+  height: 604px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+
 .prv-block {
   background-color: var(--main-bg-color);
   height: 804px;
@@ -180,7 +211,7 @@ li {
 }
 
 .prv-div {
-  margin-top: 150px;
+  margin-top: 140px;
   display: flex;
 }
 
@@ -189,6 +220,7 @@ li {
 }
 
 h1 {
+    z-index: 2;
   color: var(--standart-txt-color);
   font-family: "Dela";
   font-size: 50px;
@@ -259,9 +291,9 @@ button:hover {
 
 .prv-info {
   position: absolute;
-  top: 0px;
+  top: -46px;
   right: 370px;
-  background: url(../img/Photo-for-site.png) no-repeat center center;
+  background: url(../img/photo-for.png) no-repeat center center;
   height: 850px;
   width: 470px;
   z-index: 1;

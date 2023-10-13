@@ -21,6 +21,43 @@
   ); /* Поворачиваем на 45 градусов при активном состоянии */
 }
 
-
 /*------------------------------------------------*/
   
+.circle1 {
+  left: -550px;
+  top: -370px;
+  position: absolute;
+  border-radius: 651px;
+  opacity: 0.5;
+  background: var(--pink, #e1016e);
+  filter: blur(150px);
+  width: 750px;
+  height: 751px;
+  flex-shrink: 0;
+}
+
+.circle2 {
+  left: 1650px;
+  top: 0px;
+  position: absolute;
+  border-radius: 531px;
+  opacity: 0.5;
+  background: var(--pink, #e1016e);
+  filter: blur(140px);
+  width: 200px;
+  height: 531px;
+  flex-shrink: 0;
+}
+
+.circle3 {
+  left: 1650px;
+  top: 300px;
+  position: absolute;
+  border-radius: 604px;
+  opacity: 0.5;
+  background: var(--purple, #8900c9);
+  filter: blur(150px);
+  width: 200px;
+  height: 604px;
+  flex-shrink: 0;
+}

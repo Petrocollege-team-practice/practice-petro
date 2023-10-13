@@ -1,0 +1,113 @@
+:root {
+    --main-bg-color: #21093a;
+    --standart-txt-color: #fff;
+    --border-nav: #e1016e;
+    --gradient-btn: linear-gradient(
+      78deg,
+      #e5006d 6.38%,
+      #c90171 21.48%,
+      #961975 48.48%,
+      #6f1f78 70.91%,
+      #56207a 87.63%,
+      #4c217a 96.76%
+    );
+    --violet: #961975;
+    --dark-purple: #4b1962;
+    --light-purple: #f4f2fd;
+    --dark: #21093a;
+    --pink: #e1016e;
+  }
+
+.blck-list {
+    border-radius: 16px;
+    border: 1px solid var(--pink);
+    padding: 20px;
+    width: 1025px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.blck-list h3 {
+    color: var(--light-purple);
+    margin-bottom: 30px;
+}
+
+.dscrpt-list p {
+    color: var(--standart-txt-color);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.3px;
+}
+
+.dscrpt-list p:nth-child(1) {
+    margin-bottom: 15px;
+}
+
+.dscrpt-list li {
+    padding-left: 10px;
+    margin-left: 20px;
+    list-style-type: disc;
+    color: var(--standart-txt-color);
+}
+
+.list-documents {
+    margin-top: 25px;
+}
+
+.open-notice {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.open-notice-btn {
+    display: flex;
+    margin: 0 auto;
+    width: 383px;
+    padding: 20px 30px;
+    background: var(--gradient-btn);
+    box-shadow: 3px 2px 6px 0px rgba(0, 0, 0, 0.50);
+    letter-spacing: 0.3px;
+    justify-content: center;
+}
+
+.circle1 {
+    left: -550px;
+    top: -370px;
+    position: absolute;
+    border-radius: 651px;
+    opacity: 0.5;
+    background: var(--pink, #e1016e);
+    filter: blur(150px);
+    width: 750px;
+    height: 751px;
+    flex-shrink: 0;
+  }
+  
+  .circle2 {
+    left: 1650px;
+    top: 0px;
+    position: absolute;
+    border-radius: 531px;
+    opacity: 0.5;
+    background: var(--pink, #e1016e);
+    filter: blur(140px);
+    width: 200px;
+    height: 531px;
+    flex-shrink: 0;
+  }
+  
+  .circle3 {
+    left: 1650px;
+    top: 300px;
+    position: absolute;
+    border-radius: 604px;
+    opacity: 0.5;
+    background: var(--purple, #8900c9);
+    filter: blur(150px);
+    width: 200px;
+    height: 604px;
+    flex-shrink: 0;
+  }
+  

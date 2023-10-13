@@ -1,32 +1,75 @@
 :root {
-    --main-bg-color: #21093A;
-    --standart-txt-color: #FFF;
-    --border-nav: #E1016E;
-    --gradient-btn: linear-gradient(78deg, #E5006D 6.38%, #C90171 21.48%, #961975 48.48%, #6F1F78 70.91%, #56207A 87.63%, #4C217A 96.76%);
-    --violet: #961975;
-    --dark-purple: #4B1962;
-    --light-purple: #F4F2FD;
-    --dark: #21093A;
-    --pink: #E1016E;
+  --main-bg-color: #21093a;
+  --standart-txt-color: #fff;
+  --border-nav: #e1016e;
+  --gradient-btn: linear-gradient(
+    78deg,
+    #e5006d 6.38%,
+    #c90171 21.48%,
+    #961975 48.48%,
+    #6f1f78 70.91%,
+    #56207a 87.63%,
+    #4c217a 96.76%
+  );
+  --violet: #961975;
+  --dark-purple: #4b1962;
+  --light-purple: #f4f2fd;
+  --dark: #21093a;
+  --pink: #e1016e;
 }
 
+.circle1 {
+  left: -550px;
+  top: -370px;
+  position: absolute;
+  border-radius: 651px;
+  opacity: 0.5;
+  background: var(--pink, #e1016e);
+  filter: blur(150px);
+  width: 750px;
+  height: 751px;
+  flex-shrink: 0;
+}
 
+.circle2 {
+  left: 1650px;
+  top: 0px;
+  position: absolute;
+  border-radius: 531px;
+  opacity: 0.5;
+  background: var(--pink, #e1016e);
+  filter: blur(140px);
+  width: 200px;
+  height: 531px;
+  flex-shrink: 0;
+}
 
+.circle3 {
+  left: 1650px;
+  top: 300px;
+  position: absolute;
+  border-radius: 604px;
+  opacity: 0.5;
+  background: var(--purple, #8900c9);
+  filter: blur(150px);
+  width: 200px;
+  height: 604px;
+  flex-shrink: 0;
+}
 .prv-block1 {
-    background-color: var(--main-bg-color);
-    margin-top: 0;
-    padding: 0;
+  background-color: var(--main-bg-color);
+  margin-top: 0;
+  padding: 0;
 }
-
 
 .header-question {
-    color: var(--light-purple);
-    font-family: 'Dela';
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    text-transform: uppercase;
-    margin-bottom: 40px;
+  color: var(--light-purple);
+  font-family: "Dela";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 40px;
 }
 
 /* .container {
@@ -36,32 +79,30 @@
 } */
 
 .question-txt1 {
-    color: var(--light-purple);
-    font-family: 'Dela';
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
+  color: var(--light-purple);
+  font-family: "Dela";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .answer-txt1 {
-    color: var(--light-purple);
-    font-family: 'Raleway-regular';
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
+  color: var(--light-purple);
+  font-family: "Raleway-regular";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
 }
 
 /*ИЗМЕНЕНИЯ*/
 
 section {
-    padding-top: 25px;
-    padding-bottom: 66px;
+  padding-top: 25px;
+  padding-bottom: 66px;
 }
 
 .questions h2 {
-    margin-bottom: 40px;
-    margin-top: 25px;
+  margin-bottom: 40px;
+  margin-top: 25px;
 }
-
-
