@@ -291,11 +291,11 @@ button:hover {
 
 .prv-info {
   position: absolute;
-  top: -46px;
-  right: 370px;
-  background: url(../img/photo-for.png) no-repeat center center;
-  height: 850px;
-  width: 470px;
+  top: 60px;
+  right: 250px;
+  background: url(../img/photo-for-prv.png) no-repeat center center;
+  height: 744px;
+  width: 664px;
   z-index: 1;
 }
 
