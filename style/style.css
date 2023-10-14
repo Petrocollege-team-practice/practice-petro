@@ -292,7 +292,7 @@ button:hover {
 .prv-info {
   position: absolute;
   top: 60px;
-  right: 250px;
+  right: 200px;
   background: url(../img/photo-for-prv.png) no-repeat center center;
   height: 744px;
   width: 664px;
